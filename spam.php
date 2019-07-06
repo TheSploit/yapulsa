@@ -1,5 +1,4 @@
 <?php
-
 $banner = "\e[36;1m                                                                                 
                                                                                  
            #         ######   
@@ -11,11 +10,11 @@ $banner = "\e[36;1m
                 #     ##      
                               
                                                                                  
-[#] Yapulsa Spam Sms [#]    
+[#] Free Spamming Sms [#]  
                                    
-Author : Revan AR                  
-Team   : IndoSec                   
-Github : https//github.com/revan-ar/\n\n\e[0;1m";
+Author : ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ                  
+Team   : No Team                   
+Github : https//github.com/TheSploit/\n\n\e[0;1m";
                                                                                  
                                                                                                                                                                  
 sleep(3);
@@ -47,10 +46,10 @@ $gas = curl_exec($ch);
 curl_close($ch);
 
 if (preg_match("/HTTP\/1.1 200 OK/", $gas, $res)) {
-	echo $i.". spam sukses\n";
+	echo $i.". spamming succes by ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ\n";
 	sleep(1);
 	}else{
-		echo $i.". spam gagal\n";
+		echo $i.". spamming failed by ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ\n";
 		sleep(1);
 		}
 
